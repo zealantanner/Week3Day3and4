@@ -4,5 +4,121 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
     margin: 0;
     font: inherit;
     font-size: 100%;
-    color: #000000;
+    color: #ffffff;
+    list-style-type: none;
+}
+body{
+    background-color: #111;
+    /* -webkit-text-stroke: .5px #000000; */
+    font-family: "Optima", "sans-serif";
+}
+
+#header{
+    text-align: center;
+    background: top center scroll url(images/music2.jpg) #030914 no-repeat;
+    width: auto;
+}
+
+#nav{
+    /* font-family: "Optima", "sans-serif"; */
+    width: auto;
+    height: 75px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 0 75px;
+    border-bottom: #ffffff80 solid 4px;
+}
+#nav h3{
+    
+    margin-left: 15px;
+    font-size: 40px;
+    
+}
+#nav ul{
+    margin-right: -10px;
+    display: flex;
+}
+#nav ul li{
+    margin-right:  25px;
+    list-style-type: none;
+}
+#nav a{
+    font-weight: bold;
+
+    -webkit-text-stroke: 1px #030914;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#title{
+    display: flex;
+    height: 700px;
+}
+#title #start{
+    flex-grow: 1;
+}
+#title ul{
+    list-style-type: none;
+    flex-grow: 1;
+}
+#title #end{
+    flex-grow: 4;
+}
+
+
+#title li:first-child{
+    font-size: 75px;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: #ffffff80 solid 4px;
+    /* justify-content: center; */
+    margin: 100px 0 0 0;
+}
+#title li:last-child{
+    font-size: 40px;
+
+    font-weight: lighter;
+    
+}
+
+
+#content{
+    border-top: #ffffff80 solid 4px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+#content li{
+    flex-grow: 1;
+    display: flex;
+    height: 400px;
+}
+
+
+#content li div{
+    border: #ffffff solid 1px;
+
+}
+#content li .description{
+    margin: 40px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#content li .image{
+    width: 400px;
+}
+
+
+#content li .description h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#content li .description p{
+    font-size: 20px;
+
+    
 }
