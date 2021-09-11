@@ -9,7 +9,6 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 
 body{
     background-color: #111;
-    /* -webkit-text-stroke: .5px #000000; */
     font-family: "Optima", "sans-serif";
 }
 
@@ -41,6 +40,7 @@ body{
     list-style-type: none;
 }
 #nav a{
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
     -webkit-text-stroke: 1px #030914;
     text-decoration: none;
@@ -80,7 +80,6 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-bottom: 20px;
 }
 #content li{
     background: url(images/darkBack.jpeg);
